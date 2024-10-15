@@ -1,0 +1,115 @@
+:root{
+    --branco-principal:#FFFFFF;
+    --cinza-secundario:#c0c0c0;
+    --botao-azul:#167Bf7;
+    --cor-de-fundo:#00030c;
+    --fonte-principal:'Inter';    
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+*{margin: 0; padding: 0;}
+
+.principal{
+    background-image: url("./img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+
+}
+.container{
+    height: 100vh;
+    
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.container-botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+   
+}
+.container-secundario{
+    background-color: transparent;
+    border-style: solid;
+    color: var(--branco-principal);
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+
+}
+.container-aviso{
+    color: var(--branco-principal);
+    font-size: 12px;
+    color: var(--cinza-secundario);
+
+}   
+
+.container-titulo{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 5em;
+
+    }
+.container-imagem {margin: 1em
+        0 2em 0;}
+
+.container-caixa{ margin: 0 6em;
+
+    }
+.tabela {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+.secundario-imagem{
+        width: 80%;
+
+    }
+.secundario{
+        align-items: center;
+        margin: 0 10em;
+    }
+.container-descricao{
+       padding: 2em;
+    }
+.botao-terciario{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding:1em;
+    color: var(--branco-principal);
+    margin-bottom: 1em;
+    display: flex;
+    width: 40%;
+
+}
+.dispositivos{
+
+}
+.dispositivos-titulo{
+    font-size: 48px;
+    color: var(--branco-principal);
+    text-align: center;
+}
+.dispositivos-lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+    text-align: center;
+}
+.texto-h3{
+    font-size: 32px;
+}
+.rodape-lista{
+    display: flex;
+}
